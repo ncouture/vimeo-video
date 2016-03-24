@@ -1,0 +1,28 @@
+{
+  "name": "vimeo-video",
+  "version": "1.0.0",
+  "authors": [
+    "Wouter Vroege <wouter@woutervroege.nl>"
+  ],
+  "description": "An element to embed a vimeo video",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "seed"
+  ],
+  "main": "vimeo-video.html",
+  "homepage": "https://github.com/woutervroege/vimeo-video",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.1.5",
+    "web-component-tester": "*"
+  }
+}
