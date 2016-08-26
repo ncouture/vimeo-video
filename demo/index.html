@@ -1,29 +1,35 @@
 <!doctype html>
 <html>
   <head>
+    <title>vimeo-video demo</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-    <title>vimeo-video Demo</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+
     <link rel="import" href="../vimeo-video.html">
+
+    <style is="custom-style" include="demo-pages-shared-styles">
+    </style>
   </head>
   <body>
 
-    <style>
-      html, body {
-        margin:0;
-      }
-    </style>
-
-    <p>An example of <code>&lt;vimeo-video&gt;</code>:</p>
-
-    <vimeo-video
-      video-id="28714490"
-      autoplay
-      loop
-      color="#ffffff"
-      container-width="100%"
-    ></vimeo-video>
+    <div class="vertical-section-container centered">
+      <h3>Basic vimeo-video Demo</h3>
+      <demo-snippet>
+        <template>
+          <vimeo-video
+            video-id="28714490"
+            autoplay
+            loop
+            color="#ffffff"
+            container-width="100%"
+          ></vimeo-video>
+        </template>
+      </demo-snippet>
+    </div>
 
   </body>
 </html>
